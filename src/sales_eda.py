@@ -1,4 +1,4 @@
-"""Matplotlib charts for institute assignment Part C (tasks 9–12)."""
+"""Matplotlib charts for sales EDA (companion to Sales_Analysis_Python.ipynb)."""
 from __future__ import annotations
 
 import csv
