@@ -1,25 +1,24 @@
-# Sales Performance & Profitability Analysis (Python)
+# Sales dataset analysis (Excel + Python)
 
 **Author:** Salimeda Deekshith  
-**Stack:** Python, Pandas, Matplotlib, Jupyter
+**Data:** [Kaggle — vinothkannaece/sales-dataset](https://www.kaggle.com/datasets/vinothkannaece/sales-dataset)  
+**Institute:** Cloud Vision Technologies — Data Analytics with AI (graded assignment Parts B & C)
 
-Exploratory sales analysis and visualizations. Pairs with the Excel workbook in [sales-data-analysis](https://github.com/Deekshith254/sales-data-analysis).
-
-## What this project covers
-
-- Exploratory analysis, filtering, and `groupby()` for revenue, margins, and rep performance
-- Matplotlib **bar** and **line** charts by region, category, sales rep, and monthly trend
+Excel **Part A:** [sales-data-analysis](https://github.com/Deekshith254/sales-data-analysis)
 
 ## Quick start
 
 ```powershell
 python -m pip install -r requirements.txt
-python src/sales_eda.py
+jupyter notebook Sales_Analysis_Python.ipynb
 ```
 
-| Path | Description |
-|------|-------------|
-| `Sales_Analysis_Python.ipynb` | Interactive analysis |
-| `src/sales_eda.py` | CLI charts and summary |
-| `output/resume_charts_2x2.png` | Generated chart output |
-| `RUN_LOCALLY.md` | Full local setup guide |
+Uses `data/sales_data.csv` — see `data/DATASET.md` to replace with the official Kaggle download.
+
+## Contents
+
+| File | Assignment |
+|------|------------|
+| `Sales_Analysis_Python.ipynb` | Pandas tasks 5–8, Matplotlib tasks 9–12 |
+| `src/sales_eda.py` | Optional script charts from same CSV |
+| `INSTITUTE_ASSIGNMENT.md` | Full Part A/B/C checklist |
